@@ -143,4 +143,5 @@ plot "result.plot" every ::2 using 2:5 title 'response time' with points
 
 exit
 ```
+*References : https://blog.hkwon.me/ab-apache-http-server-benchmarking-tool/
 
