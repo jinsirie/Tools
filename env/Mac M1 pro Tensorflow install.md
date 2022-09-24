@@ -4,7 +4,7 @@
 
 1. m1 Mac Pro 기준으로 verison  문제로 아래와 같이 오류가 확인된다.
 tensorflow 맞는 버전이 없다고 하는 것인데 , python 3.10 에 맞는 tensorflow 가 없어 오류가 뜨는 것으로 확인 된다.
-![[Screen Shot 2022-09-24 at 9.15.06 PM.png]]
+![img](https://github.com/jinsirie/Tools/blob/c1fd390151a075288b19a38d2ba4250e127d5591/img%20env/Screen%20Shot%202022-09-24%20at%209.15.06%20PM.png)
 
 
 
@@ -13,18 +13,18 @@ tensorflow 맞는 버전이 없다고 하는 것인데 , python 3.10 에 맞는 
 brew install --cask miniforge
 ```
 
-![[Screen Shot 2022-09-24 at 9.27.52 PM.png]]
+![img](https://github.com/jinsirie/Tools/blob/c1fd390151a075288b19a38d2ba4250e127d5591/img%20env/Screen%20Shot%202022-09-24%20at%209.27.52%20PM.png)
 
 
 3. Conda 환경 생성
 ```
 conda create --name tensor-conda python=3.10
 ```
-![[Screen Shot 2022-09-24 at 9.29.16 PM.png]]
+![img](https://github.com/jinsirie/Tools/blob/c1fd390151a075288b19a38d2ba4250e127d5591/img%20env/Screen%20Shot%202022-09-24%20at%209.29.16%20PM.png)
 
 5. Conda 환경 활성화
 	1.Shell 환경에 따라 `source ~/.zshrc`  실행 후,  `conda activate tensor-conda` 실행할 수 있다.
-![[Screen Shot 2022-09-24 at 9.35.17 PM.png]]
+![img](https://github.com/jinsirie/Tools/blob/c1fd390151a075288b19a38d2ba4250e127d5591/img%20env/Screen%20Shot%202022-09-24%20at%209.35.17%20PM.png)
 
 6.  경우에 따라선 pip 업그레이드가 필요하다.
 ```
@@ -72,9 +72,9 @@ pip install tensorflow_datasets
 jupyter notebook
 ```
 
-![[Screen Shot 2022-09-24 at 10.15.13 PM 1.png]]
+![img](https://github.com/jinsirie/Tools/blob/932d35373795604709b9300bfbfdc69257ab1c84/img%20env/Screen%20Shot%202022-09-24%20at%209.15.06%20PM.png)
 
 
-![[Screen Shot 2022-09-24 at 10.19.24 PM.png]]
+![img](https://github.com/jinsirie/Tools/blob/c1fd390151a075288b19a38d2ba4250e127d5591/img%20env/Screen%20Shot%202022-09-24%20at%2010.19.24%20PM.png)
 #참고
 https://younsik-tech.tistory.com/14
